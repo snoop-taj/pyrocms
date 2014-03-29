@@ -1,0 +1,93 @@
+a{
+    color:#2cb9b4;
+}
+#top-bar{
+    background:#2cb9b4;
+}
+.colored{
+    color:#2cb9b4;
+}
+#nav li ul li:hover,#user-menu  .layer,#logged-in-menu,#user-main-menu li:hover,.bg-colored,.highlight,#nav #line
+{
+    background-color: #2cb9b4;
+}
+#nav .current{
+   /* background:#eb593c; */
+
+}
+#copyright span,#copyright a:hover,a:hover,.post-meta,.post-meta a,#newsletter-subscribe:hover,.read-more
+,.blog_categories li:hover a,.comment-info .name,.comment-info .name a,footer a,.contact-details,.iconbox:hover .iconbox-title
+,.iconbox:hover .iconbox-more{
+    color:#2cb9b4;
+}
+.iconbox a:hover,.post-title a:hover{
+    color:#2cb9b4;
+}
+.accordion-wrapper .accordion-head a:hover,
+.accordion-wrapper .accordion-head.active a{
+        color:#2cb9b4;
+}
+.flickr_badge_image:hover{
+    border-color:#2cb9b4;
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus ,select:focus{
+  border-color: rgba(44,185,180, 0.8);
+  outline: 0;
+  outline: thin dotted \9;
+  /* IE6-9 */
+
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44,185,180, 0.6);
+     -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44,185,180, 0.6);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(44,185,180, 0.6);
+}
+
+.progress .bar {
+    background-color: #2cb9b4;
+}
+.progress-striped .bar {
+    background-color:  #2cb9b4;
+}
+::selection{
+    background: #2cb9b4;
+}
+.drop-cap.color{
+    background: #2cb9b4;
+}
+blockquote.color{
+    border-left: 5px solid #2cb9b4;
+}
+blockquote.pull-right.color{
+    border-right: 5px solid #2cb9b4;
+}
+.color-icons i{
+    color:#2cb9b4;
+}
+.highlight{
+    background-color: #2cb9b4;
+}
+.camera_bar_cont{
+    background: #2cb9b4 !important;
+}
+.camera_prev:hover,.camera_next:hover{
+    background-color: #2cb9b4 !important;
+        
+}
+.carousel-arrow-left{
+    background-color: #2cb9b4 !important;
+     
+}

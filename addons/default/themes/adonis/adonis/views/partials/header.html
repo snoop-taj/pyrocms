@@ -1,0 +1,60 @@
+<!--Header-------------->
+        <header>
+            <div id="top-bar"></div>
+            <div class="container">
+                <div id="top-menu" class="row-fluid" >
+                    <div class="search-form-container pull-right hidden-phone">
+                        {{ search:form class="search-form"}} 
+                        <input type="search" name="q" placeholder="Search terms..." /> 
+                        <button id="search-submit" class="icon-search" type="submit" name="Search"></button>
+                        {{ /search:form }}
+                    </div>
+                    {{ if user:logged_in }}
+                        <div id="logged-in-menu">
+                            <i class="icon-chevron-down"></i>
+                            <a  href="#">User menu</a>
+                            <ul id="user-main-menu">
+                                {{ navigation:links group="usermenu" }}
+                            </ul>
+                        </div>
+                    {{else}}
+                     <div id="user-menu">
+                        <ul >
+                            <li class="login">
+                                <a href="{{ url:site uri='users/login' }}">Login</a>
+                                <div class="layer"></div>
+                            </li>
+                            <li class="registration">
+                                <a href="{{ url:site }}register">Registration</a>
+                                <div class="layer"></div>
+                            </li>
+                        </ul>
+                    </div>
+                    {{endif}}
+                   
+
+
+
+                </div>
+
+                <div id="main-header" class="row-fluid">
+                    <div  id='logo-container' class="span5">
+                        <div id="logo">
+                            <a href="{{ url:site  }}" title="Home">
+                            {{theme:image file="logo-{{theme:options:color}}.png"}}
+                            </a>
+                        </div>
+                        <div id="slogan" class="hidden-phone">
+                            <span>{{ settings:site_slogan }}</span>
+                        </div>
+                    </div>
+                    <div id='menu-container' class="span7">
+                        <ul id="nav">
+                           {{ navigation:links group="header" }}
+                        </ul>
+                    </div>
+            </div>
+            </div>
+
+    </header>
+<!--/Header-------------->

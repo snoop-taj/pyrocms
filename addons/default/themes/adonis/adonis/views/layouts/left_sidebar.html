@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {{ theme:partial name="metadata" }}
+    </head>
+    <body>
+       {{ integration:analytics }}
+       {{ theme:partial name="header" }}
+        <!--Slider--------------->
+       {{ if { url:segments segment="1" } == '' OR  { url:segments segment="1" } == 'home' }}
+            <div class="container">
+                <section id="home-slider">
+                    {{widgets:area slug="slider"}}
+                 </section> 
+            </div>
+       {{ endif }}
+        <!--/Slider--------------->
+        <!--Main container-------->
+        <section id="main" class="container">
+            {{ if theme:options:show_breadcrumbs == 'yes' }}
+            {{ theme:partial name="breadcrumbs" }}
+            {{endif}}
+            {{ session:messages success="alert alert-success" notice="alert" error="alert alert-error" }}
+            <div class="row-fluid">
+                <!-- sidebar -->
+                <div class="span3" id="sidebar">
+                    {{ widgets:area slug="sidebar" }}
+                </div>
+                <!-- /sidebar -->
+                <div class="span9">
+                    {{ template:body }}
+                </div>
+            </div>  
+        </section>
+        
+        <!--Main container-------->
+        {{ theme:partial name="footer" }}
+    </body>
+</html>
