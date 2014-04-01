@@ -31,6 +31,11 @@
 	margin: 0;
 	padding: 0;
 }
+.flexslider .slides img {
+     max-width: 100%; 
+     height: 500px; 
+     display: block;
+}
 .flexslider .slides > li {
 	-webkit-backface-visibility: hidden;
 	display: none;

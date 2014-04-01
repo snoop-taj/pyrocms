@@ -50,7 +50,7 @@
 				animationSpeed: 600,
 				pauseOnHover: 1,
 				smoothHeight: true,
-				directionNav: false
+				directionNav: false,
 			});
 		});
 	}
