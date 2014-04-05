@@ -33,10 +33,10 @@
 
 // Development
 $db[PYRO_DEVELOPMENT] = array(
-	'hostname'		=> 	'localhost',
-	'username'		=> 	'root',
-	'password'		=> 	'root',
-	'database'		=> 	'pyrocms_demo',
+	'hostname'		=> 	'pyrocms.db.8900272.hostedresource.com',
+	'username'		=> 	'pyrocms',
+	'password'		=> 	'Smart1234!',
+	'database'		=> 	'pyrocms',
 	'dbdriver' 		=> 	'mysqli',
 	'dbprefix' 		=>	'',
 	'pconnect' 		=>	FALSE,
@@ -70,10 +70,10 @@ $db[PYRO_STAGING] = array(
 
 // Production
 $db[PYRO_PRODUCTION] = array(
-	'hostname'		=> 	'localhost',
-	'username'		=> 	'root',
-	'password'		=> 	'root',
-	'database'		=> 	'pyrocms_demo',
+	'hostname'		=> 	'pyrocms.db.8900272.hostedresource.com',
+	'username'		=> 	'pyrocms',
+	'password'		=> 	'Smart1234!',
+	'database'		=> 	'pyrocms',
 	'dbdriver' 		=> 	'mysqli',
 	'pconnect' 		=>	FALSE,
 	'db_debug' 		=>	FALSE,
